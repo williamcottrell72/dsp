@@ -47,20 +47,16 @@ However, this is completely optional as Anaconda is an all-in-one package manage
 
 ### Q1. Python Version 2 or 3
 
-**Course material for the bootcamp is compatible with Python versions 2.7 and 3.0. All HackerRank Python pre-work is configured for Python 3 only.  Therefore, Python 3 is the recommended version.**  
+**Course material for the bootcamp is compatible with Python versions 2.7 and 3.0. All HackerRank Python pre-work is configured for Python 3 only.  Therefore, Python 3 is the recommended version.**
 
-Did you install Python 2 or 3? Why?  
+Did you install Python 2 or 3? Why?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> I installed Python 3.6.5.  For one, it came with Aanaconda.  For two, it seems that Python 2 will not be supported forever and everything will eventually need to transfer over to Python 3 anyway.  Since I'm learning the syntax now, there is no point in learning some details that are soon to be defunct.
 
-### Q2. Which Python Version Installed   
+### Q2. Which Python Version Installed
 
 In the Terminal:
 
 `python3 --version`
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
-
- 
-
-
+>> As mentioned, I went with 3.6.5.  For iPython I've got 6.4.0, which is just the latest version.  (Or, at least the latest version that Anaconda thinks is safe.)
