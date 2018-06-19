@@ -6,4 +6,4 @@
 
 ***This is an image***
 
-![alt-text]('/home/williamcottrell72/ds/metis/metisgh/prework/dsp/img/Biased_Speed_Distribution.phg')
+![alt-text]('images/Biased_Speed_Distribution.phg')
