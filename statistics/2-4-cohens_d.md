@@ -2,4 +2,8 @@
 
 >> REPLACE THIS TEXT WITH YOUR RESPONSE
 
-###This is a title!
+##This is a title!
+
+***This is an image***
+
+![alt-text]('/home/williamcottrell72/ds/metis/metisgh/prework/dsp/img/Biased_Speed_Distribution.phg')
