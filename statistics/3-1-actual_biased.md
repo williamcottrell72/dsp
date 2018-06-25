@@ -35,7 +35,7 @@
 > ```
 > The biased distribution we want is now:
 > ```python
-> numk_bias=BiasPmf(numk_pmf,\`Observed Number Distribution`)
+> numk_bias=BiasPmf(numk_pmf,`Observed Number Distribution`)
 > ```
 > Finally, let's plot and compare:
 > ```python
@@ -79,5 +79,5 @@
 >thinkplot.Pmf(new_hist)
 >thinkplot.Config(xlabel='Relative >Velocity',ylabel='PMF')
 > ```
-> ![an_image](/images/Biased_Speed_Distribution.png)
+> ![image2](https://github.com/williamcottrell72/dsp/blob/master/statistics/images/Biased_Speed_Distribution.png)
 >As expected, this appears to be bimodal.
