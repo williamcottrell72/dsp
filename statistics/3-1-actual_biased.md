@@ -80,4 +80,5 @@
 >thinkplot.Config(xlabel='Relative >Velocity',ylabel='PMF')
 > ```
 > ![image2](https://github.com/williamcottrell72/dsp/blob/master/statistics/images/Biased_Speed_Distribution.png)
+>
 >As expected, this appears to be bimodal.
