@@ -2,7 +2,6 @@
 
 
 
-
 >> We start by importing the usual suspects:
 > ```python
 > import numpy as np
