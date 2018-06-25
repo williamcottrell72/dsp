@@ -17,11 +17,15 @@
 >thinkplot.Config(xlabel='number',ylabel='Count')
 >```
 >The result is
->(image here)
+>
+>![pmf](https://github.com/williamcottrell72/dsp/blob/master/statistics/images/random_pmf.png)
+>
 > Next, we plot the CDF:
 > ```python
 > rn_cdf=thinkstats2.Cdf(rn,label='Random Numbers')
 >thinkplot.Cdf(rn_cdf)
 >thinkplot.Config(xlabel='number',ylabel='CDF')
 > ```
+>![cdf](https://github.com/williamcottrell72/dsp/blob/master/statistics/images/random_cdf.png)
+>
 > Almost a straight line as expected.
