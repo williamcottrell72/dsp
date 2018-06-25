@@ -1,6 +1,8 @@
 [Think Stats Chapter 3 Exercise 1](http://greenteapress.com/thinkstats2/html/thinkstats2004.html#toc31) (actual vs. biased)
 
 
+
+
 >> We start by importing the usual suspects:
 > ```python
 > import numpy as np
@@ -42,7 +44,7 @@
 > thinkplot.Config(xlabel='Number of Children',ylabel='PMF')
 > ```
 
-![an_image](/images/Bias_vs_Unbiased.png)
+![test_mew](https://github.com/williamcottrell72/dsp/blob/master/statistics/images/Bias_vs_Unbiased.png)
 
 
 [Think Stats Chapter 3 Exercise 4](http://greenteapress.com/thinkstats2/html/thinkstats2004.html#toc31) (actual vs. biased for footrace)
