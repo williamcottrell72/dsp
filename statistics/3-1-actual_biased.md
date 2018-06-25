@@ -77,7 +77,7 @@
 > ```python
 > new_hist=thinkstats2.Pmf(new,label='Biased Speed Distribution')
 >thinkplot.Pmf(new_hist)
->thinkplot.Config(xlabel='Relative >Velocity',ylabel='PMF')
+>thinkplot.Config(xlabel='Relative Velocity',ylabel='PMF')
 > ```
 > ![image2](https://github.com/williamcottrell72/dsp/blob/master/statistics/images/Biased_Speed_Distribution.png)
 >
