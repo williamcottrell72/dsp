@@ -24,7 +24,8 @@
 > ```python
 > n, mean, std =  154407 178.102789 7.017054
 > ```
-> (image here)
+> ![male_heights_cdf](https://github.com/williamcottrell72/dsp/blob/master/statistics/images/HeightsNormalCDF.png)
+>
 > Now, let's make a CDF from the data:
 > ```python
 > cdf=thinkstats2.Cdf(heights)
