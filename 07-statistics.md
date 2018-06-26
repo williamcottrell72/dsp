@@ -86,14 +86,35 @@ Bayes' Theorem is an important tool in understanding what we really know, given 
 
 Elvis Presley had a twin brother who died at birth.  What is the probability that Elvis was an identical twin? Assume we observe the following probabilities in the population: fraternal twin is 1/125 and identical twin is 1/300.  
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+> This problem does not really require Bayes' Theorem, but let's write it anyway for completeness.  Given statements or sets 'A' and 'B', Bayes' Theorem says:
+> P(A|B) = P(B|A) * P(A)/P(B)
+>In the present situation, we can set:
+>
+>```python
+>A = Elvis is an identical twin
+>B = Elvis is a twin
+>```
+>What we would now like to compute is P(A|B), i.e,. given that we know that Elvis is a twin, what is the probability that he is an identical twin?
+>This question is really too trivial to merit the use of Bayes' Theorem since, obviously, P(B|A) = 1, i.e., if Elvis is an identical twin then clearly he is also a twin.  All we really need to do then is determine the probability that someone is a twin from the information given.  Since twins are either fraternal and idential and since these are mutually exclusive, we have 
+>```python
+>P(B) = P(fraternal) + P(identical)
+> = 1/125+1/300
+>= .01133333....
+>```
+>
+>Thus, the probability we are after is just:
+>```python
+>P(A|B) = 1*P(A)/P(B)
+>=(1/300)/.0113333 = .294
+>```
+>Thus, there is a 29.4% probability that Elvis was an identical twin (if he were a twin at all).  
 
 ---
 
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>A frequentist would need to construct N alternate universes, each containing an Elvis and possibly Elvis's twin.  The twin would be killed at birth in each of these universes.  Then the frequentist would need to take N to infinity and study the convergence of the probability in this limit.  After doing this, the frequentist could provide an answer to this question.  
 
 ---
 
