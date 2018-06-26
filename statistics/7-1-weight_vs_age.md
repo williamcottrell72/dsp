@@ -24,7 +24,8 @@
 >                 axis=[15, 45, 0, 15],
 >                 legend=False)
 >```
-> (image here)
+> ![scatter](https://github.com/williamcottrell72/dsp/blob/master/statistics/images/AgeWeightScatter.png)
+>
 > Now let's plot percentiles.  First, bin the data:
 > ```python
 > bins_new = np.arange(15, 45, 5)
@@ -48,7 +49,7 @@
 >                 axis=[15,45, 0, 15],
 >                 legend=False)
 >```
->  (image here)
+>  ![percentiles](https://github.com/williamcottrell72/dsp/blob/master/statistics/images/AgeWeightPercentiles.png)
 >
 > Finally, the two metrics of correlation are:
 > ```python
