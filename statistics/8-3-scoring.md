@@ -42,7 +42,8 @@
 >plt.show()
 > ```
 >
-> (lam_hist_8p3)
+> ![lam_hist](https://github.com/williamcottrell72/dsp/blob/master/statistics/images/Lam_est_hist_8p3.png)
+>
 > We can also plot the estimate for lam, the confidence interval, and how the RMS error changes with n, keeping lam and m fixed.  The following code does this:
 > ```python
 >def errors(lam,m,nsteps=40,step=1):
@@ -68,7 +69,10 @@
 >    plt.show()
 >    return rms
 > ```
-> (CI_hist and se_versus_n_8p3)
+> ![ci](https://github.com/williamcottrell72/dsp/blob/master/statistics/images/CI_8p3.png)
+>
+>![se](https://github.com/williamcottrell72/dsp/blob/master/statistics/images/se_versus_n_8p3.png)
+>
 > Empirically this seems to be an unbiased estimator.  This makes sense because this distribution is *memoryless*, i.e, this distribution doesn't care when we start the clock.  This is important since otherwise one might worry about edge effects at t=0.  For instance, we are assuming that there is no goal at t=0, but then we are using t=0 as the first time for out *between-goal periods*. Thus, one might wonder whether or not we should include a goal at t=0 or not, or maybe .5 goals?  In any case, this doesn't matter since the distribution is the same regardless of when we start the clock.  Thus, the game interval that we selected is typical and representative of randomly picking a one game period somewhere in an infinitely long period of game play.
 
 >Finally, we are asked what happens if **lam** is increased.  Naturally, this should reduce the ratio of the relative error to the mean since we now have more goals scored.  The ratio of relative error to mean reduces with the number of samples.  
