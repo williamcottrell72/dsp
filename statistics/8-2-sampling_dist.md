@@ -42,8 +42,11 @@
 > se=SE(ls)
 > se
 >  0.0005749315022924327
-> ```
-> (image here)
+>```
+>We can also make a histogram of the various L's:
+>
+>![lhist](https://github.com/williamcottrell72/dsp/blob/master/statistics/images/Lhistogram.png)
+>
 >To get the 90% confidence interval it is convenient to convert this to a CDF.
 > ```python
 > cdf=thinkstats2.Cdf(ls)
@@ -62,4 +65,7 @@
 >plt.ylabel('Standard Error')
 >plt.show()
 > ```
-> (image here)
+> ![sesn](https://github.com/williamcottrell72/dsp/blob/master/statistics/images/SE_vs_n.png)
+>
+>This is not quite as pretty as I would have hoped but that's the way the cookie crumbles.  At least one can see the
+expected downward trend.
